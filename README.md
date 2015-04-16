@@ -1,2 +1,3 @@
 # opensource-socialnetwork-french-translation
-Translation of OSSN
+opensource-socialnetwork French translation
+ 
