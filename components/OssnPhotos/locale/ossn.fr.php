@@ -10,19 +10,19 @@
  */
 
 $fr = array(
-    'album:name' => 'Nom d\'Album',
-    'add:album' => 'Ajouter un Album',
+    'album:name' => "Nom d'Album",
+    'add:album' => "Ajouter un Album",
     'photo:select' => 'Sélectionner Photos',
-    'no:albums' => 'Pas d\'Albums',
+    'no:albums' => "Pas d'Albums",
     'no:photos' => 'Pas de Photos',
-    'back:to:album' => 'Retour vers l\'Album',
+    'back:to:album' => "Retour vers l'Album",
     'photo:albums' => 'Albums Photos',
     'edit:profile' => 'Modifier le Profil',
     'reposition:cover' => 'Repositionner',
     'profile:photos' => 'Photo du Profil',
 	
     'photo:deleted:success' => 'Photo supprimé avec succès!',
-    'photo:delete:error' => 'Vous ne pouvez pas supprimer la photo! S\'il vous plaît réessayer plus tard.',
+    'photo:delete:error' => "Vous ne pouvez pas supprimer la photo! S'il vous plaît réessayer plus tard.",
 	
     'photos' => 'Photos',
     'back' => 'Retour',
@@ -32,6 +32,11 @@ $fr = array(
     'covers' => 'Couverture',
     'cover:view' => 'Voir couverture',
     'profile:covers' => 'Photo de couverture',
+	'delete:album' => "Supprimer l'album",
+	
+	'photo:album:deleted' => 'Album photo supprimé avec succès',
+	'photo:album:delete:error' => "Impossible de supprimer l'album",	
 
+	
 );
 ossn_register_languages('fr', $fr); 

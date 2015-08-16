@@ -15,7 +15,7 @@ $fr = array(
     'site:terms' => 'Termes et Conditions',
 
     'page:saved' => 'Page enregistrée avec succès!',
-    'page:save:error' => 'Vous ne pouvez pas enregistrer la page ! S\'il vous plaît réessayer plus tard.',
+    'page:save:error' => "Vous ne pouvez pas enregistrer la page ! S'il vous plaît réessayer plus tard.",
 
 );
 ossn_register_languages('fr', $fr); 

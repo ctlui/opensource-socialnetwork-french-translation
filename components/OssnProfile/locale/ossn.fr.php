@@ -17,5 +17,6 @@ $fr = array(
     'save:position' => 'Sauver Position',
 	'ossn:profile:picture:updated' => 'a changé son image de profil.',
 	'ossn:profile:cover:picture:updated' => 'a changé sa photo de couverture.',
+	'language' => 'Langue',	
 );
 ossn_register_languages('fr', $fr); 

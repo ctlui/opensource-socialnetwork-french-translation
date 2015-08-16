@@ -59,5 +59,9 @@ $fr = array(
 
 	// #186 group join request message var1 = user, var2 = name of group
 	'ossn:notifications:group:joinrequest' => '%s a demandé à rejoindre %s',
+	'ossn:group:by' => 'Par:',
+	
+	'group:deleted' => 'Groupe et contenu du groupe supprimé',
+	'group:delete:fail' => 'Le groupe ne peut pas être supprimé',	
 );
 ossn_register_languages('fr', $fr); 

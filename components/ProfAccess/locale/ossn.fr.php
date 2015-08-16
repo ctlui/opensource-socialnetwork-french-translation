@@ -10,6 +10,6 @@
  */
 
 $fr = array(
-    'profile:access:error' => 'Vous devez vous identifier pour afficher cette page',
+    'profile:access:error' => 'Vous devez vous identifier pour voir cette pagee',
 );
 ossn_register_languages('fr', $fr); 

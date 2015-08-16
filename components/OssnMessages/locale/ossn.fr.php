@@ -11,7 +11,7 @@
 $fr = array(
     'user:messages' => 'Messages',
     'inbox' => 'Boite de réception',
-    'send' => 'Envoyé',
+    'send' => 'Envoyer',
     'ossn:message:between' => 'Messages %s',
     'messages' => 'Messages',
     'message:placeholder' => 'Entrer votre texte ici',

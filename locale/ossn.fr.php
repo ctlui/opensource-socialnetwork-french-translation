@@ -49,6 +49,8 @@ $fr = array(
 
     'search:users' => 'Membres',
     'admin:logout' => 'Déconnexion',
+	'admin:menu' => 'Menu Administrateur',	
+	'feedback' => 'Envoyer vos remarques',	
     'logout' => 'Déconnexion',
 
     'ossn:like:this' => '%s aime ça',
@@ -265,8 +267,8 @@ S'il vous plaît cliquez sur le lien ci-dessous pour réinitialiser le mot de pa
 	'admin:component:author' => "Auteur",
 	'admin:component:website' => "Site web",
 	'admin:sidemenu:components' => "Composants",
-	'admin:sidemenu:themes' => "Thèmes",
-	'admin:sidemenu:settings' => "Paramètres du site",
+	'admin:sidemenu:themes' => "Themes",
+	'admin:sidemenu:settings' => "Parametres du site",
 	'admin:sidemenu:usermanager' => "Gestion des Utilisateurs",
 	'cancel' => "Annuler",
 	'ossn:language:complete' => "Complet",
@@ -276,6 +278,28 @@ S'il vous plaît cliquez sur le lien ci-dessous pour réinitialiser le mot de pa
 	'admin:users:unvalidated' => "Utilisateurs non validés",
 	'admin:user:validated' => "Utilisateur validé",
 	'admin:user:validate:error' => "Impossible de valider l'utilisateur.",
+	
+	//v3.0
+	//admin
+	'my:files:version' => "Version des fichiers d'OSSN",
+	'cache:flush:error' => "Vous ne pouvez pas vider le cache, vérifiez que le cache soit activé dans les paramètres.",
+	'cache:flushed' => "Cache vidé avec succès",
+	'ossn:version' => 'Version OSSN', 
+	'php:extensionn' => 'Extension PHP',
+	'php:versionn' => 'Version PHP',
+	'php:function' => 'Fonction PHP',
+	'admin:old:com' => "Votre fichier ossn_com.xml est basé sur une ancienne version d'Ossn. Merci de mettre à jour le composant '%s'.",
+	'admin:old:theme' => "Votre fichier ossn_theme.xml est basé sur une ancienne version d'Ossn. Merci de mettre à jour le yhème '%s'.",
+	'admin:button:disabled' => 'Disactivé',
+	'admin:flush:cache' => 'Vider Cache',
+	'admin:com:version' => 'Version',
+	'admin:com:author' => 'Auteur',
+	'admin:com:author:url' => "URL de l'auteur",
+	'admin:com:license' => 'Licence',
+	'admin:com:requirements' => 'Requis',
+	'admin:com:availability' => 'Disponibilité',
+	'ossn:exception:make:sure' => "Etes-vous sûr ?",
+		
     /*
        * List of ISO 639-1 language codes
        * http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes

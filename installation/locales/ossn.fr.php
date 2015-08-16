@@ -43,10 +43,10 @@ $fr = array(
 	'ossn:install:old:php' => "Vous avez une ancienne version de PHP " . PHP_VERSION . " Il faut PHP 5.4 ou PHP 5.5",
 	
 	'ossn:install:mysqli' => 'MYSQLI Activé',
-	'ossn:install:mysqli:required' => 'MYSQLI PHP EXTENSION REQUIRED',
+	'ossn:install:mysqli:required' => 'Extension MYSQLI PHP requise',
 	
 	'ossn:install:apache' => 'APACHE Activé',
-	'ossn:install:apache:required' => 'APACHE IS REQUIRED',
+	'ossn:install:apache:required' => 'APACHE est requis',
 	
 	'ossn:install:modrewrite' => 'MOD_REWRITE',
 	'ossn:install:modrewrite:required' => 'MOD_REWRITE REQUIS',
@@ -57,8 +57,8 @@ $fr = array(
 	'ossn:install:gd' => 'PHP GD LIBRARY',
 	'ossn:install:gd:required' => 'LIBRAIRIE PHP GD REQUISE',
 	
-	'ossn:install:config' => 'CONFIGURATION DIRECTORY WRITEABLE',
-	'ossn:install:config:error' => 'CONFIGURATION DIRECTORY IS NOT WRITEABLE',
+	'ossn:install:config' => 'REPERTOIRE DE CONFIGURATION ACCESSIBLE EN ECRITURE',
+	'ossn:install:config:error' => "LE REPERTOIRE DE CONFIGURATION N'EST PAS ACCESSIBLE EN ECRITURE",
 	
 	'ossn:install:next' => 'Suivant',
     'ossn:install:install' => 'Installer',
@@ -66,6 +66,12 @@ $fr = array(
     'ossn:install:finish' => 'Terminer',
 	
 	'fields:require' => 'Tous les champs sont requis!',
+	
+	'ossn:install:allowfopenurl' => 'PHP allow_url_fopen activé',
+	'ossn:install:allowfopenurl:error' => 'PHP allow_url_fopen est requis',
+	
+	'ossn:install:ziparchive' => 'PHP ZipArchive activé',
+	'ossn:install:ziparchive:error' => 'Extension PHP ZipArchive requise',	
 );
 
 ossn_installation_register_languages($fr);

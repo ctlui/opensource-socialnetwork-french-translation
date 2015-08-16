@@ -17,7 +17,7 @@ $fr = array(
     'ossn:notifications:comments:entity:file:ossn:aphoto' => '%s a commenté votre photo.',
     'ossn:notifications:wall:friends:tag' => '%s vous a tagué sur un message.',
     'ossn:notification:are:friends' => 'Vous êtes maintenant amis!',
-    'ossn:notifications:comments:post:group:wall' => "%s commented on the group post.",
+    'ossn:notifications:comments:post:group:wall' => "%s a commenté un post de groupe.",
     'ossn:notifications:like:entity:file:profile:photo' => "%s aime la photo de profil.",
     'ossn:notifications:comments:entity:file:profile:photo' => "%s a commenté la photo de profil.",
     'ossn:notifications:like:post:group:wall' => '%s aime votre message.',
@@ -28,5 +28,10 @@ $fr = array(
     'friend:requests' => 'Demande d\'ami',
     'ossn:notifications:friendrequest:confirmbutton' => 'Accepter',
     'ossn:notifications:friendrequest:denybutton' => 'Refuser',
+	
+	'ossn:notification:mark:read:success' => "Marqué toutes lues avec succès",
+	'ossn:notification:mark:read:error' => 'Ne peut pas les marquer toutes lues',
+
+    'ossn:notifications:mark:as:read' => 'Marquer toutes lues',		
 );
 ossn_register_languages('fr', $fr); 
